@@ -3,6 +3,14 @@
 /* print Fahrenheit-Celsius table
  * for fahr = 0, 20, ..., 300 */
 int main() {
+  printf("\n");
+  printf("#################################");
+  printf("\n");
+  printf("## Fahrenheit to Celsius Table ##");
+  printf("\n");
+  printf("#################################");
+  printf("\n");
+
   float fahr, celsius;
   int lower, upper, step;
 
