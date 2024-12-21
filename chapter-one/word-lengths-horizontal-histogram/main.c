@@ -10,7 +10,7 @@ int main() {
     if (c == '\n' || c == '\t' || c == ' ') {
       if (!words_was_sent) {
         printf("###############################\n");
-        printf("# WORLDS HORIZONTAL HISTOGRAM #\n");
+        printf("# WORDS HORIZONTAL HISTOGRAM #\n");
         printf("###############################\n");
 
         words_was_sent = 1;
@@ -27,7 +27,7 @@ int main() {
     } else {
       if (!words_was_sent) {
         printf("###############################\n");
-        printf("# WORLDS HORIZONTAL HISTOGRAM #\n");
+        printf("# WORDS HORIZONTAL HISTOGRAM #\n");
         printf("###############################\n");
 
         words_was_sent = 1;
