@@ -3,7 +3,6 @@
 int main() {
   int word_length = 0;
   int words_was_sent = 0;
-  int header_was_printed = 0;
   int c;
 
   while ((c = getchar()) != EOF) {
